@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		961F55B22A4337F500F4E802 /* AppliBeBetterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55B12A4337F500F4E802 /* AppliBeBetterApp.swift */; };
-		961F55B42A4337F500F4E802 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55B32A4337F500F4E802 /* ContentView.swift */; };
 		961F55B62A4337F700F4E802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961F55B52A4337F700F4E802 /* Assets.xcassets */; };
 		961F55BA2A4337F700F4E802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961F55B92A4337F700F4E802 /* Preview Assets.xcassets */; };
-		961F55C42A4337F700F4E802 /* AppliBeBetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55C32A4337F700F4E802 /* AppliBeBetterTests.swift */; };
-		961F55CE2A4337F700F4E802 /* AppliBeBetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55CD2A4337F700F4E802 /* AppliBeBetterUITests.swift */; };
-		961F55D02A4337F700F4E802 /* AppliBeBetterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55CF2A4337F700F4E802 /* AppliBeBetterUITestsLaunchTests.swift */; };
 		961F55DD2A43384400F4E802 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55DC2A43384400F4E802 /* TabBarView.swift */; };
 		961F55DF2A4339ED00F4E802 /* CalendrierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55DE2A4339ED00F4E802 /* CalendrierView.swift */; };
 		961F55E12A4339FC00F4E802 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55E02A4339FC00F4E802 /* MessageView.swift */; };
@@ -22,35 +18,11 @@
 		961F55E72A433A4600F4E802 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F55E62A433A4600F4E802 /* ProfilView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		961F55C02A4337F700F4E802 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 961F55A62A4337F500F4E802 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 961F55AD2A4337F500F4E802;
-			remoteInfo = AppliBeBetter;
-		};
-		961F55CA2A4337F700F4E802 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 961F55A62A4337F500F4E802 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 961F55AD2A4337F500F4E802;
-			remoteInfo = AppliBeBetter;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		961F55AE2A4337F500F4E802 /* AppliBeBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppliBeBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961F55B12A4337F500F4E802 /* AppliBeBetterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliBeBetterApp.swift; sourceTree = "<group>"; };
-		961F55B32A4337F500F4E802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		961F55B52A4337F700F4E802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		961F55B72A4337F700F4E802 /* AppliBeBetter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppliBeBetter.entitlements; sourceTree = "<group>"; };
 		961F55B92A4337F700F4E802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		961F55BF2A4337F700F4E802 /* AppliBeBetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppliBeBetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		961F55C32A4337F700F4E802 /* AppliBeBetterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliBeBetterTests.swift; sourceTree = "<group>"; };
-		961F55C92A4337F700F4E802 /* AppliBeBetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppliBeBetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		961F55CD2A4337F700F4E802 /* AppliBeBetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliBeBetterUITests.swift; sourceTree = "<group>"; };
-		961F55CF2A4337F700F4E802 /* AppliBeBetterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliBeBetterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		961F55DC2A43384400F4E802 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		961F55DE2A4339ED00F4E802 /* CalendrierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendrierView.swift; sourceTree = "<group>"; };
 		961F55E02A4339FC00F4E802 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
@@ -67,20 +39,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		961F55BC2A4337F700F4E802 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		961F55C62A4337F700F4E802 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				961F55B02A4337F500F4E802 /* AppliBeBetter */,
-				961F55C22A4337F700F4E802 /* AppliBeBetterTests */,
-				961F55CC2A4337F700F4E802 /* AppliBeBetterUITests */,
 				961F55AF2A4337F500F4E802 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				961F55AE2A4337F500F4E802 /* AppliBeBetter.app */,
-				961F55BF2A4337F700F4E802 /* AppliBeBetterTests.xctest */,
-				961F55C92A4337F700F4E802 /* AppliBeBetterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				961F55B12A4337F500F4E802 /* AppliBeBetterApp.swift */,
-				961F55B32A4337F500F4E802 /* ContentView.swift */,
 				961F55DC2A43384400F4E802 /* TabBarView.swift */,
 				961F55E62A433A4600F4E802 /* ProfilView.swift */,
 				961F55E42A433A3500F4E802 /* PlaylistView.swift */,
@@ -116,7 +69,6 @@
 				961F55E02A4339FC00F4E802 /* MessageView.swift */,
 				961F55DE2A4339ED00F4E802 /* CalendrierView.swift */,
 				961F55B52A4337F700F4E802 /* Assets.xcassets */,
-				961F55B72A4337F700F4E802 /* AppliBeBetter.entitlements */,
 				961F55B82A4337F700F4E802 /* Preview Content */,
 			);
 			path = AppliBeBetter;
@@ -128,23 +80,6 @@
 				961F55B92A4337F700F4E802 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		961F55C22A4337F700F4E802 /* AppliBeBetterTests */ = {
-			isa = PBXGroup;
-			children = (
-				961F55C32A4337F700F4E802 /* AppliBeBetterTests.swift */,
-			);
-			path = AppliBeBetterTests;
-			sourceTree = "<group>";
-		};
-		961F55CC2A4337F700F4E802 /* AppliBeBetterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				961F55CD2A4337F700F4E802 /* AppliBeBetterUITests.swift */,
-				961F55CF2A4337F700F4E802 /* AppliBeBetterUITestsLaunchTests.swift */,
-			);
-			path = AppliBeBetterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,42 +102,6 @@
 			productReference = 961F55AE2A4337F500F4E802 /* AppliBeBetter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		961F55BE2A4337F700F4E802 /* AppliBeBetterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 961F55D62A4337F700F4E802 /* Build configuration list for PBXNativeTarget "AppliBeBetterTests" */;
-			buildPhases = (
-				961F55BB2A4337F700F4E802 /* Sources */,
-				961F55BC2A4337F700F4E802 /* Frameworks */,
-				961F55BD2A4337F700F4E802 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				961F55C12A4337F700F4E802 /* PBXTargetDependency */,
-			);
-			name = AppliBeBetterTests;
-			productName = AppliBeBetterTests;
-			productReference = 961F55BF2A4337F700F4E802 /* AppliBeBetterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		961F55C82A4337F700F4E802 /* AppliBeBetterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 961F55D92A4337F700F4E802 /* Build configuration list for PBXNativeTarget "AppliBeBetterUITests" */;
-			buildPhases = (
-				961F55C52A4337F700F4E802 /* Sources */,
-				961F55C62A4337F700F4E802 /* Frameworks */,
-				961F55C72A4337F700F4E802 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				961F55CB2A4337F700F4E802 /* PBXTargetDependency */,
-			);
-			name = AppliBeBetterUITests;
-			productName = AppliBeBetterUITests;
-			productReference = 961F55C92A4337F700F4E802 /* AppliBeBetterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,14 +114,6 @@
 				TargetAttributes = {
 					961F55AD2A4337F500F4E802 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					961F55BE2A4337F700F4E802 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 961F55AD2A4337F500F4E802;
-					};
-					961F55C82A4337F700F4E802 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 961F55AD2A4337F500F4E802;
 					};
 				};
 			};
@@ -240,8 +131,6 @@
 			projectRoot = "";
 			targets = (
 				961F55AD2A4337F500F4E802 /* AppliBeBetter */,
-				961F55BE2A4337F700F4E802 /* AppliBeBetterTests */,
-				961F55C82A4337F700F4E802 /* AppliBeBetterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,20 +145,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		961F55BD2A4337F700F4E802 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		961F55C72A4337F700F4E802 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961F55B42A4337F500F4E802 /* ContentView.swift in Sources */,
 				961F55E52A433A3500F4E802 /* PlaylistView.swift in Sources */,
 				961F55E72A433A4600F4E802 /* ProfilView.swift in Sources */,
 				961F55E32A433A1200F4E802 /* AccueilView.swift in Sources */,
@@ -288,37 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		961F55BB2A4337F700F4E802 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				961F55C42A4337F700F4E802 /* AppliBeBetterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		961F55C52A4337F700F4E802 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				961F55D02A4337F700F4E802 /* AppliBeBetterUITestsLaunchTests.swift in Sources */,
-				961F55CE2A4337F700F4E802 /* AppliBeBetterUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		961F55C12A4337F700F4E802 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 961F55AD2A4337F500F4E802 /* AppliBeBetter */;
-			targetProxy = 961F55C02A4337F700F4E802 /* PBXContainerItemProxy */;
-		};
-		961F55CB2A4337F700F4E802 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 961F55AD2A4337F500F4E802 /* AppliBeBetter */;
-			targetProxy = 961F55CA2A4337F700F4E802 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		961F55D12A4337F700F4E802 /* Debug */ = {
@@ -435,7 +279,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AppliBeBetter/AppliBeBetter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppliBeBetter/Preview Content\"";
@@ -461,10 +304,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = marine.AppliBeBetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,7 +318,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AppliBeBetter/AppliBeBetter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppliBeBetter/Preview Content\"";
@@ -499,100 +343,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = marine.AppliBeBetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		961F55D72A4337F700F4E802 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7DD844695V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = marine.AppliBeBetterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppliBeBetter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppliBeBetter";
-			};
-			name = Debug;
-		};
-		961F55D82A4337F700F4E802 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7DD844695V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = marine.AppliBeBetterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppliBeBetter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppliBeBetter";
-			};
-			name = Release;
-		};
-		961F55DA2A4337F700F4E802 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7DD844695V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = marine.AppliBeBetterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AppliBeBetter;
-			};
-			name = Debug;
-		};
-		961F55DB2A4337F700F4E802 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7DD844695V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = marine.AppliBeBetterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AppliBeBetter;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -613,24 +369,6 @@
 			buildConfigurations = (
 				961F55D42A4337F700F4E802 /* Debug */,
 				961F55D52A4337F700F4E802 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		961F55D62A4337F700F4E802 /* Build configuration list for PBXNativeTarget "AppliBeBetterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				961F55D72A4337F700F4E802 /* Debug */,
-				961F55D82A4337F700F4E802 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		961F55D92A4337F700F4E802 /* Build configuration list for PBXNativeTarget "AppliBeBetterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				961F55DA2A4337F700F4E802 /* Debug */,
-				961F55DB2A4337F700F4E802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

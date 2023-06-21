@@ -8,39 +8,47 @@
 import SwiftUI
 
 struct TabBarView: View {
+    @State private var selection = 2
     var body: some View {
+        
         TabView {
         
         CalendrierView()
             .tabItem {
                 Label("Calendrier", systemImage: "calendar")
-            }
+            }.tag(0)
         
         MessageView()
             .tabItem {
                 Label("Messages", systemImage: "bubble.right")
-            }
+            }.tag(1)
+
             
         AccueilView()
                 .tabItem {
                     Image("logo")
-                        .resizable()
-                        .scaledToFit()
+                        .renderingMode(.template)
+//                        .resizable()
+//                        .scaledToFit()
+//                        .frame(width: 44,height: 44)
                     Text("Accueil")
-                }
-            
+                }.tag(2)
+
         PlaylistView()
                 .tabItem {
-                    Label("Playlistcalendar.badge.clock", systemImage: "music.note")
-                }
+                    Label("Playlist", systemImage: "music.note")
+                }.tag(3)
+
             
         ProfilView()
             .tabItem {
                 Label("Profil", systemImage: "person")
-            }
+            }.tag(4)
+
         
         
         }
+        .accentColor(Color("bleu"))
     }
 }
 
